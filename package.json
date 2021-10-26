@@ -1,0 +1,31 @@
+{
+  "name": "algo-tutorials",
+  "version": "1.0.0",
+  "description": "Learn algorithms for beginners",
+  "main": "index.js",
+  "scripts": {
+    "start": "node './src/index.js' --compilers js:babel-core/register",
+    "test": "mocha './tests/**/*.js' --compilers js:babel-core/register",
+    "test:watch": "mocha './tests/**/*.js' --compilers js:babel-core/register --watch"
+  },
+  "keywords": [
+    "test",
+    "unit-test",
+    "mocha",
+    "chai",
+    "sinon"
+  ],
+  "author": "Amine EL HAOUNI",
+  "license": "MIT ",
+  "type": "module",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "sinon": "^4.5.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
